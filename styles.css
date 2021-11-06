@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+html{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    color:#F593AD;
+    font-family: 'Fredericka the Great', cursive;
+}
+body{
+    width:100%;
+    height:100%;
+}
+nav{
+    position: fixed;
+    width:100%;
+    height:4rem;
+    background-color: black;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F593AD;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+nav img{
+    max-height:4rem;
+}
+nav li{
+    display: inline-flex;
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+    color:#F593AD;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+header img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    
+    margin: 5rem auto 2rem;
+    line-height: 1;
+}
+a:hover {
+    background-color: #F593AD; 
+    border: 0.5rem solid #F593AD;
+    border-radius: 50px;
+    color: black;
+    
+}
+header h2{
+    font-family: 'Nothing You Could Do', cursive;
+    color:rgb(179, 4, 4)
+}
+header h1{
+        text-decoration: underline;
+        -ms-text-underline-position: alphabetic;
+        text-shadow: .5rem .5rem 1rem #55323b;
+      }
+header img{
+    border: 3px solid black;
+    border-radius: 20rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgb(27, 27, 27), -1rem 0.3rem .4rem #55323b;
+}
+.quote{
+    font-family: 'Nothing You Could Do', cursive;
+    color:rgb(179, 4, 4);
+}
+.coach-container img{
+    height:20rem;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+.coach-container figure{
+    border: 1px solid #F593AD;
+    border-radius: 2rem;
+    max-width: 40rem;
+    margin: 0 auto 1rem;
+    line-height: 1.5;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(27, 27, 27), -0.2rem 0.1rem .2rem #55323b;
+}
+.name{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+bold{
+    font-weight: bold;
+}
+.rules{
+    border-top: 1px solid #F593AD;
+    line-height: 1.5;
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
+    border-bottom: 1px solid #F593AD;
+   
+}
+.rules li{
+    text-align: left;
+}
+#location img{
+    height:25rem;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+#location{
+    line-height: 1.5;
+}
+#location figcaption{
+    font-weight: bold;
+}
+footer{
+    color:rgb(56, 56, 56);
+    background-color: #F593AD;
+    border-bottom: 1px solid #F593AD;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding-bottom: 1rem;
+    height:4rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(27, 27, 27), -0.2rem 0.1rem .2rem #55323b;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: space-around;
+    opacity: 0.8;
+    
+
+    
+}
+h3,p{
+    margin:1rem auto 0;
+    font-weight: bold;
+    
+}
+@media screen and (min-width: 1600px) {
+    html{
+
+    font-size: 36px;}
+}
+@media screen and (max-width: 1024px) {
+    html{
+
+    font-size: 20px;}
+}
+
+@media screen and (max-width: 425px) {
+    html{
+
+    font-size: 16px;
+}
+
+}
+@media screen and (max-width: 320px) {
+    html{
+
+        font-size: 14px;}
+
+       
+ 
+}
+@media only screen and (max-width:425px){
+    nav{
+      height:8rem;
+    }
+    }
